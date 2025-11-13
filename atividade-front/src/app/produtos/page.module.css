@@ -1,13 +1,26 @@
-
 .tbl {
     border-collapse: collapse;
     margin: auto;
     font-size: 2em;
 }
+
+
 .tbl td, .tbl th {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 2px;
 }
+
+.tbl tbody tr {
+    cursor: pointer;
+}
+.tbl tbody tr:nth-child(odd){
+    background-color: rgb(72, 104, 104);
+}
+
+.tbl tbody tr:hover {
+    background-color: #87ddff56;
+}
+
 
 .divTitulo {
     display: flex;
@@ -24,8 +37,11 @@
 .modal {
     width: 100vw;
     height: 100vh;
-    background-color: #ddddddce;
+    background-color: #aadeeece;
     position:fixed;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

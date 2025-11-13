@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div>
       <h1 className={styles.h1}>Hello World!</h1>
-      <p className={styles.paragrafo}>Meu parágrafo</p>
+      <p className={styles.paragrafo}>ℳℯ𝓂ℯ𝓃𝓉ℴ ℳℴ𝓇𝒾</p>
       <button onClick={() => { adicionar() }}>Adicionar</button>
       <button onClick={() => { subtrair() }}>Subtrair</button>
       <p>Contagem {cont}</p>

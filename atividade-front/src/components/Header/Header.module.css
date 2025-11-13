@@ -1,6 +1,6 @@
 .header {
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(169, 221, 255);
     padding: 10px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .link:hover {
-    color: darkgray;
+    color: rgb(0, 0, 0);
 }
 
 .btn {

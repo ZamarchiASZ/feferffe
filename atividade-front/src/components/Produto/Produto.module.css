@@ -1,0 +1,27 @@
+.card {
+    width: 160px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(97, 145, 187);
+    cursor: pointer;
+    gap: 10px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+}
+
+/* 
+mude o cursor para "mãozinha" sobre as linhas da tabela
+coloque cores diferentes em linhas pares e ímpares
+altere a cor ao passar o mouse sobre uma linha
+coloque o card Produto centralizado (vertical e horizontalmente) na div modal */
